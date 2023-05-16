@@ -1,25 +1,29 @@
-# create readme
+# Mecos
     
 ## Description
 
-it will create a readme file for the user
+Tu te fuiste de aqui y yo debo de entender quye no te volvere a ver 
 
-- What was your motivation? hw
-- Why did you build this project? hw
-- What problem does it solve? it gives a profesional readme structure
-- What did you learn? node js
+- What was your motivation? M4 CSL 
+- Why did you build this project? To leaarn about Node.js
+- What problem does it solve? It creates a readme file in base of the user input
+- What did you learn? how to use prompt
 
 ## Installation
 
-npm something something
+npm i inquirer
 
 ## Usage 
 
-nope
+no thank you
 
 //How can i add images?
 
 ## Credits
 
-no ty
+none
+
+## License
+
+MIT
     

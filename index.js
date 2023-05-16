@@ -10,7 +10,8 @@ const generateREADME = ({
   fourthQ,
   installation,
   usage,
-  credits
+  credits,
+  license,
 }) =>
   `# ${title}
     
@@ -36,6 +37,10 @@ ${usage}
 ## Credits
 
 ${credits}
+
+## License
+
+${license}
     `;
 
 inquirer
@@ -83,7 +88,13 @@ inquirer
     {
       type: "input",
       name: "credits",
-      message: "Provide collaborators, third-party assets, or followed tutorials.",
+      message:
+        "Provide collaborators, third-party assets, or followed tutorials.",
+    },
+    {
+      type: "input",
+      name: "license",
+      message: "Add your license:",
     },
   ])
   .then((answers) => {
