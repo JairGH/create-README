@@ -12,6 +12,9 @@ const generateREADME = ({
   usage,
   credits,
   license,
+  test,
+  question,
+  email,
 }) =>
   `# ${title}
     
@@ -24,6 +27,15 @@ ${description}
 - What problem does it solve? ${thirdQ}
 - What did you learn? ${fourthQ}
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Test](#test)
+- [Questions](#questions)
+
 ## Installation
 
 ${installation}
@@ -32,8 +44,6 @@ ${installation}
 
 ${usage}
 
-//How can i add images?
-
 ## Credits
 
 ${credits}
@@ -41,7 +51,20 @@ ${credits}
 ## License
 
 ${license}
-    `;
+    
+## Test
+
+${test}
+
+## Questions
+
+- GitHub
+https://github.com/${question}
+
+- Email ${email}
+
+
+`;
 
 inquirer
   .prompt([
@@ -92,11 +115,42 @@ inquirer
         "Provide collaborators, third-party assets, or followed tutorials.",
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
-      message: "Add your license:",
+      choices: [
+        "Apache License 2.0",
+        "GNU General Public License v3.0",
+        "MIT License",
+        'BSD 2-Clause "Simplified" License',
+        'BSD 3-Clause "New" or "Revised" License',
+        "Boost Software License 1.0",
+        "Creative Commons Zero v1.0 Universal",
+        "Eclipse Public License 2.0",
+        "GNU Affero General Public License v3.0",
+        "GNU General Public License v2.0",
+        "GNU Lesser General Public Licesne v2.1",
+        "Mozilla Public License 2.0",
+        "The Unlicense",
+      ],
+    },
+    {
+      type: "input",
+      name: "test",
+      message: "Go the extra mile and write tests for your application.",
+    },
+    {
+      type: "input",
+      name: "question",
+      message: "What is your GitHub user name.",
+    },
+
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email?, for contact purposes.",
     },
   ])
+
   .then((answers) => {
     const readmePageContent = generateREADME(answers);
 

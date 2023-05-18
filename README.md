@@ -1,29 +1,48 @@
-# Mecos
+# gv
     
 ## Description
 
-Tu te fuiste de aqui y yo debo de entender quye no te volvere a ver 
+g
 
-- What was your motivation? M4 CSL 
-- Why did you build this project? To leaarn about Node.js
-- What problem does it solve? It creates a readme file in base of the user input
-- What did you learn? how to use prompt
+- What was your motivation? g
+- Why did you build this project? g
+- What problem does it solve? asg
+- What did you learn? ag
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [Test](#test)
+- [Questions](#questions)
 
 ## Installation
 
-npm i inquirer
+adfgre
 
 ## Usage 
 
-no thank you
-
-//How can i add images?
+gre
 
 ## Credits
 
-none
+rge
 
 ## License
 
-MIT
+Apache License 2.0
     
+## Test
+
+gregeg
+
+## Questions
+
+- GitHub
+https://github.com/JairGH
+
+- Email jairherber505@gmail.com
+
+
