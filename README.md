@@ -1,13 +1,13 @@
-# gv
+# Create-README
     
 ## Description
 
-g
+With this project you will be able to automate a professional README file.
 
-- What was your motivation? g
-- Why did you build this project? g
-- What problem does it solve? asg
-- What did you learn? ag
+- What was your motivation? My motivation was to not spend time creating the same layout for every single future project of mine.
+- Why did you build this project? Homework.
+- What problem does it solve?     - [ ] The implication of creating a professional  every single time.
+- What did you learn? NPM and Node.
 
 ## Table of Contents
 
@@ -20,23 +20,23 @@ g
 
 ## Installation
 
-adfgre
+npm install require.
 
 ## Usage 
 
-gre
+You will have to run the program using node index.js  on the console.
 
-## Credits
+## Contributing
 
-rge
+N/A
 
 ## License
 
-Apache License 2.0
+MIT License
     
 ## Test
 
-gregeg
+N/A
 
 ## Questions
 

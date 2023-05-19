@@ -10,7 +10,7 @@ const generateREADME = ({
   fourthQ,
   installation,
   usage,
-  credits,
+  contributing,
   license,
   test,
   question,
@@ -44,9 +44,9 @@ ${installation}
 
 ${usage}
 
-## Credits
+## Contributing
 
-${credits}
+${contributing}
 
 ## License
 
@@ -110,7 +110,7 @@ inquirer
     },
     {
       type: "input",
-      name: "credits",
+      name: "contributing",
       message:
         "Provide collaborators, third-party assets, or followed tutorials.",
     },
@@ -128,7 +128,7 @@ inquirer
         "Eclipse Public License 2.0",
         "GNU Affero General Public License v3.0",
         "GNU General Public License v2.0",
-        "GNU Lesser General Public Licesne v2.1",
+        "GNU Lesser General Public License v2.1",
         "Mozilla Public License 2.0",
         "The Unlicense",
       ],
@@ -143,7 +143,6 @@ inquirer
       name: "question",
       message: "What is your GitHub user name.",
     },
-
     {
       type: "input",
       name: "email",
